@@ -13,6 +13,7 @@ export const Task:React.FC<TaskPropsType> = ({todolistId, task}) => {
         <div key={task.id}>
 
             {task.title}
+            {task.completed}
 
             <IconButton>
                 <Delete/>
